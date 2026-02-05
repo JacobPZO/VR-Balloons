@@ -13,7 +13,6 @@ public class ButtonInputController : MonoBehaviour
         if (Input.GetButtonDown("XRI_Right_TriggerButton"))
         {
             ButtonDownEvent.Invoke();
-            UnityEngine.Debug.Log("DOWNevent!");
         }
         else if (Input.GetButtonUp("XRI_Right_TriggerButton"))
         {
